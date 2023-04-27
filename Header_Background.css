@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-radius;
+}
+
+#header{
+    display: inline-block;
+    margin: auto;
+    /*background-color: whitesmoke;*/
+}
+
+.navigation{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    width:100vw;
+    border-style:dashed;
+    border-width: 5px;
+    padding: 5px;
+    background-color: rgb(245, 245, 196);
+}
+
+.navigation a{
+    text-decoration: none;
+    padding: 20px;
+}
+
+.navigation a:hover{
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+body {
+    background-image: url("images/Background2.png");  /*create background image*/
+    background-repeat: no-repeat; /*avoid repeat color changing*/
+    background-attachment: fixed; 
+    background-position: center;
+    background-size: cover;
+}
